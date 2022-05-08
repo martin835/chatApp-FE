@@ -1,0 +1,52 @@
+form {
+  text-align: start;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+button {
+  display: block !important;
+  margin: 0 auto;
+}
+
+.welcome {
+  background-color: hsla(204, 12%, 84%, 0.5);
+  text-align: center;
+  width: clamp(360px, 700px, 42%);
+  margin: 12vh auto auto;
+  padding: 4rem 3rem 2rem;
+  box-shadow: -3px -2px 9px -2px rgba(64, 64, 64, 0.5);
+  -webkit-box-shadow: -3px -2px 9px -2px rgba(64, 64, 64, 0.5);
+  -moz-box-shadow: -3px -2px 9px -2px rgba(64, 64, 64, 0.5);
+}
+
+.welcome h1 {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.welcome > p {
+  margin-top: 3rem;
+  opacity: 0.7;
+}
+
+.view-change {
+  padding: 1rem 0;
+}
+
+.form {
+  text-align: left !important;
+  color: green;
+  margin-right: auto;
+}
+
+.view-link {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.view-link:hover {
+  color: green;
+}

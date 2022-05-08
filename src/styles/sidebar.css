@@ -1,0 +1,166 @@
+.user-pic {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.search-input {
+  border: 1px solid rgba(179, 178, 178, 0.9);
+  border-radius: 8px !important;
+  margin-bottom: 0.5rem;
+}
+.search-input:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.user-picture {
+  border-radius: 50%;
+  width: 40px;
+  z-index: 1;
+  min-height: 40px;
+  max-height: 40px;
+}
+
+.chatBack {
+  background-image: url("https://i.pinimg.com/236x/8f/ba/cb/8fbacbd464e996966eb9d4a6b7a9c21e--sultan.jpg");
+  position: center;
+  object-fit: cover;
+  height: 86vh;
+}
+
+.message {
+  height: 5vh;
+}
+
+.message-input {
+  width: 100%;
+}
+
+.max-height-100vh {
+  max-height: 100vh;
+}
+
+.scroller {
+  height: 84vh;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  position: absolute;
+}
+
+.scroller2 {
+  width: 100%;
+  height: 87vh;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  position: absolute;
+}
+
+.chat-border {
+  border: 1px solid rgba(179, 178, 178, 0.7);
+  border-radius: 8px;
+  padding: 0.625rem;
+}
+.chat-border:hover {
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(145, 145, 145, 0.1);
+}
+
+.chat-list {
+  position: absolute;
+  z-index: 100;
+}
+
+.message-sent {
+  width: 35%;
+  background-color: green;
+  color: white;
+  border-end-end-radius: 25px;
+  margin-left: auto;
+  word-break: break-all;
+}
+
+.message-received {
+  width: 35%;
+  background-color: rgb(82, 85, 82);
+  color: white;
+  border-end-start-radius: 25px;
+  word-break: break-all;
+}
+
+.scrollerChat {
+  overflow-y: scroll;
+  scrollbar-color: green;
+  scrollbar-width: thin;
+}
+.emoji {
+  position: absolute;
+  bottom: 38px;
+}
+
+.sidebar {
+  position: relative;
+}
+
+.normal-p {
+  margin-bottom: 0;
+}
+
+.sidebar-header-icons {
+  width: 28%;
+  min-width: 68px;
+  justify-content: space-evenly;
+  color: rgba(179, 178, 178, 0.96);
+}
+.header-icon {
+  font-size: large;
+}
+
+.header-icon:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#dropdown-basic {
+  background: none;
+  color: rgba(179, 178, 178, 0.96) !important;
+  border: none !important;
+  padding: 0;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.chatBack p {
+  margin-bottom: 0;
+}
+
+.msg {
+  flex-grow: 1;
+  padding: 3px;
+}
+.active-chat {
+  background-color: rgba(175, 175, 175, 0.2);
+}
+
+.scroller2 > div:hover {
+  cursor: pointer;
+  background-color: rgba(175, 175, 175, 0.25);
+}
+
+.new-conversation {
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: grid;
+  margin-left: 5rem;
+  place-content: center;
+  position: absolute;
+  top: 20%;
+  font-size: 26px;
+  color: rgba(133, 133, 133, 0.48);
+}
